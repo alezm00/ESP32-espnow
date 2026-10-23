@@ -1,0 +1,12 @@
+{
+  "urls": [
+    ["espnowmanager/__init__.py", "github:alezm00/ESP32-espnow/espnowmanager/__init__.py"],
+    ["espnowmanager/frame.py", "github:alezm00/ESP32-espnow/espnowmanager/frame.py"],
+    ["espnowmanager/manager.py", "github:alezm00/ESP32-espnow/espnowmanager/manager.py"],
+    ["espnowmanager/store.py", "github:alezm00/ESP32-espnow/espnowmanager/store.py"]
+  ],
+  "deps": [
+    ["github:alezm00/ESP32-wifi", "main"]
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# MicroPython compiled modules (the library is shipped as .py)
+*.mpy
+
+# Files the libraries write on the board (the WiFi one holds passwords, the peers one ESP-NOW keys, in plain text)
+wifi_config.json
+wifi_config.json.tmp
+wifi_config.json.bad
+espnow_peers.json
+espnow_peers.json.tmp
+espnow_peers.json.bad
+wifi.log
+wifi.log.1
+espnow.log
+espnow.log.1
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local tooling
+.claude/
